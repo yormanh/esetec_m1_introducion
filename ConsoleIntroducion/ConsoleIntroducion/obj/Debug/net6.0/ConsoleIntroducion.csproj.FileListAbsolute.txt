@@ -1,0 +1,15 @@
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\bin\Debug\net6.0\ConsoleIntroducion.exe
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\bin\Debug\net6.0\ConsoleIntroducion.deps.json
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\bin\Debug\net6.0\ConsoleIntroducion.runtimeconfig.json
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\bin\Debug\net6.0\ConsoleIntroducion.dll
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\bin\Debug\net6.0\ConsoleIntroducion.pdb
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.csproj.AssemblyReference.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.AssemblyInfoInputs.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.AssemblyInfo.cs
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.csproj.CoreCompileInputs.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.dll
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\refint\ConsoleIntroducion.dll
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.pdb
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ConsoleIntroducion.genruntimeconfig.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\ConsoleIntroducion\ConsoleIntroducion\obj\Debug\net6.0\ref\ConsoleIntroducion.dll
