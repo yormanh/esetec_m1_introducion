@@ -10,34 +10,24 @@ namespace Introduccion2
     {
         static void Main(string[] args)
         {
-            string valor1, valor2; 
-            int resultado;
-            int valor1Entero, valor2Entero;
 
-            Console.Write("Entra el primer numero: ");
-            valor1 = Console.ReadLine();
+            int numeroPersonasEntero;
+            float valorCuentaFloat;
+            float resultado;
+            string valorCuenta;
+            string numeroPersonas;
 
-            Console.Write("Entra el segundo numero: ");
-            valor2 = Console.ReadLine();
+            Console.Write("Escribe el numero de personas: ");
+            numeroPersonas = Console.ReadLine();
 
-            //resultado = Convert.ToInt32(valor1) + Convert.ToInt32(valor2);
+            Console.Write("Entra valor de la cuenta: ");
+            valorCuenta = Console.ReadLine();
 
-            valor1Entero = Convert.ToInt32(valor1);
-            valor2Entero = Convert.ToInt32(valor2);
+            valorCuentaFloat = Convert.ToInt32(valorCuenta);
+            numeroPersonasEntero = Convert.ToInt32(numeroPersonas);
 
-            resultado = valor1Entero + valor2Entero;
-            Console.WriteLine(valor1 + " + " + valor2 + " = " + resultado);
-
-            resultado = valor1Entero - valor2Entero;
-            Console.WriteLine(valor1 + " - " + valor2 + " = " + resultado);
-
-            resultado = valor1Entero * valor2Entero;
-            Console.WriteLine(valor1 + " * " + valor2 + " = " + resultado);
-
-            resultado = valor1Entero / valor2Entero;
-            Console.WriteLine(valor1 + " / " + valor2 + " = " + resultado);
-
-
+            resultado = valorCuentaFloat / numeroPersonasEntero;
+            Console.WriteLine("A pagar: " + resultado);
 
             Console.WriteLine("Presiona Enter para salir");
             Console.ReadLine();
