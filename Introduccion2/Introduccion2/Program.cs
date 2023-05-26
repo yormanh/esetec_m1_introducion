@@ -23,7 +23,7 @@ namespace Introduccion2
             Console.Write("Entra valor de la cuenta: ");
             valorCuenta = Console.ReadLine();
 
-            valorCuentaFloat = Convert.ToInt32(valorCuenta);
+            valorCuentaFloat = Convert.ToInt32(valorCuenta) * 1.0f;
             numeroPersonasEntero = Convert.ToInt32(numeroPersonas);
 
             resultado = valorCuentaFloat / numeroPersonasEntero;
