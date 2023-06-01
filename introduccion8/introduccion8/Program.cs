@@ -46,8 +46,8 @@ namespace introduccion8
             //{
             //    Console.WriteLine(i);
             //}
+            //https://github.com/yormanh/esetec_m1_introducion
 
-            
             for (int i = 0; i < 10; i++)
             {
                 int resto = i % 2;
