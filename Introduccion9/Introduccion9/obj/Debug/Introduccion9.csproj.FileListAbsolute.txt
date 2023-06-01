@@ -1,0 +1,8 @@
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\bin\Debug\Introduccion9.exe.config
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\bin\Debug\Introduccion9.exe
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\bin\Debug\Introduccion9.pdb
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\obj\Debug\Introduccion9.csproj.AssemblyReference.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\obj\Debug\Introduccion9.csproj.SuggestedBindingRedirects.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\obj\Debug\Introduccion9.csproj.CoreCompileInputs.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\obj\Debug\Introduccion9.exe
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\Introduccion9\Introduccion9\obj\Debug\Introduccion9.pdb
