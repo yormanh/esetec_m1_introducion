@@ -23,7 +23,7 @@ namespace introduccion12
 
         static public void Metodo2()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            
             Console.BackgroundColor = ConsoleColor.Red;
             for (int i = 0; i < 10; i++)
             {
@@ -47,6 +47,7 @@ namespace introduccion12
                 }
                 Console.WriteLine();
             }
+            Console.ResetColor();
         }
 
         static public void Metodo1()
