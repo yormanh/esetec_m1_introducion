@@ -11,7 +11,7 @@ namespace introduccion14
         static void Main(string[] args)
         {
             int numeroAlumnos = 10;
-            //GenerarNotas(numeroAlumnos);
+            GenerarNotas(numeroAlumnos);
             //SumarNotas(numeroAlumnos);
             MayorNota(numeroAlumnos);
             Console.ReadLine();
