@@ -37,6 +37,11 @@ namespace Introduccion16
             gato.ImprimirJugador();
 
 
+            Cachorro cachorro = new Cachorro();
+            cachorro.nombre = "Toby";
+
+            cachorro.Mensaje();
+
             Console.ReadLine();
         }
     }
