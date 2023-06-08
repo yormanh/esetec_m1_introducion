@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -8,13 +9,21 @@ public class Jugador : MonoBehaviour
     public int velocidad;
     public int vidas;
     public float valorGravedad = 9.81f;
-    CharacterController controller;
+    private CharacterController controller;
     public TextMeshProUGUI vidasTexto;
+    public TextMeshProUGUI tiempoTexto;
+    public GameObject comidaPrefab;
+    private Vector3 posicionInicialPlayer;
+    
+    //Contador
+    float contadorSegundos = 0.0f;
+    int tiempoCrearComida = 10;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        posicionInicialPlayer = gameObject.transform.position;
         //puntuacion = 10;
         //gameObject.name = "NuevoNombre";
         //gameObject.SetActive(false);
@@ -37,6 +46,53 @@ public class Jugador : MonoBehaviour
     public void Update()
     {
         Movimiento();
+        DebajoDelSuelo();
+        Contador();
+        CrearComida();
+    }
+
+    void CrearComida()
+    {
+        if (contadorSegundos > tiempoCrearComida)
+        {
+            //Debug.Log("Crear comida");
+            tiempoCrearComida = tiempoCrearComida + 10;
+            //tiempoCrearComida += tiempoCrearComida;
+
+            int x = UnityEngine.Random.Range(0, 26);
+            int z = UnityEngine.Random.Range(0, 39);
+
+            //System.Random rand = new System.Random();
+
+
+            Vector3 nuevaPosicion = new Vector3(x, 2, z);
+            Instantiate(comidaPrefab, nuevaPosicion, Quaternion.identity);
+        }
+    }
+   
+    public void Contador()
+    {
+        //El tiempo en segundos que tardó en completarse el último frame 
+        contadorSegundos += Time.deltaTime; // contadorSegundos = contadorSegundos + Time.deltaTime;
+        //Debug.Log(contadorSegundos);
+        tiempoTexto.text = Convert.ToInt32(contadorSegundos).ToString();
+
+
+    }
+
+    public void DebajoDelSuelo()
+    {
+        //gameObject.GetComponent<Transform>().position.y
+        if (gameObject.transform.position.y < -10)
+        {
+            //Debug.Log("Bajo el suelo");
+            //gameObject.transform.position = Vector3.zero;
+            //gameObject.transform.position = new Vector3(12f,1f,12f);
+            gameObject.transform.position = posicionInicialPlayer;
+            vidas--;
+            vidasTexto.text = "Vidas: " + vidas.ToString();
+            
+        }
     }
 
     public void Movimiento()
