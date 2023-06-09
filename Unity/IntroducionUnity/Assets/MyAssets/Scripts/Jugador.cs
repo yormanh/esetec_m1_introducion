@@ -13,11 +13,13 @@ public class Jugador : MonoBehaviour
     public TextMeshProUGUI vidasTexto;
     public TextMeshProUGUI tiempoTexto;
     public GameObject comidaPrefab;
+    public GameObject bombaPrefab;
     private Vector3 posicionInicialPlayer;
     
     //Contador
     float contadorSegundos = 0.0f;
     int tiempoCrearComida = 10;
+    int tiempoCrearBomba = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +51,19 @@ public class Jugador : MonoBehaviour
         DebajoDelSuelo();
         Contador();
         CrearComida();
+        CrearBomba();
+    }
+
+    void CrearBomba()
+    {
+        if (contadorSegundos > tiempoCrearBomba)
+        {
+            tiempoCrearBomba = tiempoCrearBomba + 10;
+            int x = UnityEngine.Random.Range(0, 26);
+            int z = UnityEngine.Random.Range(0, 39);
+            Vector3 nuevaPosicion = new Vector3(x, 2, z);
+            Instantiate(bombaPrefab, nuevaPosicion, Quaternion.identity);
+        }
     }
 
     void CrearComida()
@@ -67,6 +82,7 @@ public class Jugador : MonoBehaviour
 
             Vector3 nuevaPosicion = new Vector3(x, 2, z);
             Instantiate(comidaPrefab, nuevaPosicion, Quaternion.identity);
+            //comidaPrefab.GetComponent<Animator>().ManzanaAnimation.play
         }
     }
    
@@ -132,6 +148,7 @@ public class Jugador : MonoBehaviour
             //vidas--;
             other.gameObject.SetActive(false);
             vidasTexto.text = "Vidas: " + vidas.ToString();
+            gameObject.GetComponent<AudioSource>().Play();
         }
         if (other.tag == "Comida")
         {

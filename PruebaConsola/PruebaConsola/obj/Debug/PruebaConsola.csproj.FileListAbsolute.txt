@@ -1,0 +1,8 @@
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\bin\Debug\PruebaConsola.exe.config
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\bin\Debug\PruebaConsola.exe
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\bin\Debug\PruebaConsola.pdb
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.csproj.AssemblyReference.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.csproj.SuggestedBindingRedirects.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.csproj.CoreCompileInputs.cache
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.exe
+C:\Users\DocenteT\Desktop\Yorman\Codigo\esetec_m1_introducion\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.pdb
